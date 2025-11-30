@@ -2,6 +2,14 @@
 ## Evolution Framework FiveM
 
 Evolution é um framework moderno, leve e altamente performático para FiveM, criado do zero para facilitar o desenvolvimento de servidores RP e não RP.
+## Documentação da API
+
+### Client-side
+
+| Referência  | Tipo       |  Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `setCharacter("male")` | `client/server` | Altera o modelo do personagem entre Homem e Mulher (male, female) |
+
 ## Autores
 
 - [@deex](https://www.github.com/octokatherine)
@@ -13,10 +21,3 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## Documentação do Framework
-
-### Client-side
-
-| Referência  | Tipo       |  Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `setCharacter("male")` | `client/server` | Altera o modelo do personagem entre Homem e Mulher (male, female) |
