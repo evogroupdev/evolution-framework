@@ -12,7 +12,7 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 
 ## Autores
 
-- [@dxofc](https://www.github.com/octokatherine)
+- [@DeeX](https://www.github.com/dxofc)
 
 - [@erick](https://github.com/erick-sx)
 
