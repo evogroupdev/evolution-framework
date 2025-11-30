@@ -6,9 +6,25 @@ RegisterCommand("teste", function(_, args, rawCommand)
     Evolution.setCharacter("male")
 end)
 
--- Client = {}
--- Tunnel.bindInterface("teste", Client)
+RegisterCommand("nc", function(_, args, rawCommand)
+    Evolution.noClip()
+end)
 
--- function Client.teste()
---     print("^2[SUCESSO] Servidor chamou a função no cliente!^7")
--- end
+RegisterCommand("text", function(_, args, rawCommand)
+    local text2D = Evolution.create2DText("Meu Texto", 0.5, 0.1, 0.4, 0, 255, 0, 255)
+    local text3D = Evolution.create3DText("Texto 3D", GetEntityCoords(PlayerPedId()), 0.4, 255, 0, 0, 255)
+
+    print("ID 2D: " .. tostring(text2D))
+    print("ID 3D: " .. tostring(text3D))
+
+    print("REMOVENDO...")
+    Wait(2000)
+    Evolution.removeText(text2D)
+    Evolution.removeText(text3D)
+end)
+
+
+RegisterCommand("a", function(_, args, rawCommand)
+    local info = Evolution.teste()
+    print(info)
+end)

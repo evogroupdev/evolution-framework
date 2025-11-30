@@ -9,6 +9,11 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 | Referência  | Tipo       |  Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `setCharacter("male")` | `client/server` | Altera o modelo do personagem entre Homem e Mulher (male, female) |
+| `noClip()` | `client/server` | Entra ou sai do modo no-clip |
+| `setHealth(value)` | `client/server` | Setar vida para o personagem |
+| `setArmour(value)` | `client/server` | Setar colete para o personagem |
+| `create2DText(text, x, y, scale, r, g, b, a)` | `client/server` | Criar um texto 2D |
+| `create3DText(text, coords, scale, r, g, b, a)` | `client/server` | Criar um texto 3D |
 
 ## Autores
 
