@@ -15,6 +15,11 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 | `create2DText(text, x, y, scale, r, g, b, a)` | `client/server` | Criar um texto 2D |
 | `create3DText(text, coords, scale, r, g, b, a)` | `client/server` | Criar um texto 3D |
 | `removeText(id)` | `client/server` | Remover um texto 2D/3D especifico |
+| `setVisible(state)` | `client/server` | Setar o personagem como visivel/invisivel (true, false) |
+| `freezeChar(state)` | `client/server` | Fixar o personagem na coordenada atual (true, false) |
+| `giveWeapon(hash, ammo)` | `client/server` | Setar armamento para o personagem |
+| `removeWeapon(hash)` | `client/server` | Remover armamento especifico do personagem |
+| `removeAllWeapons()` | `client/server` | Remover todos armamentos do personagem |
 
 ## Colaboradores
 

@@ -16,6 +16,26 @@ function Evolution.setArmour(value)
     SetPedArmour(PlayerPedId(), value)
 end
 
+function Evolution.setVisible(state)
+    SetEntityVisible(PlayerPedId(), state)
+end
+
+function Evolution.freezeChar(state)
+    FreezeEntityPosition(GetPlayerPed(-1), state)
+end
+
+function Evolution.giveWeapon(hash, ammo)
+    GiveWeaponToPed(PlayerPedId(), GetHashKey(hash), ammo, false, false)
+end
+
+function Evolution.removeWeapon(hash)
+    RemoveWeaponFromPed(PlayerPedId(), GetHashKey(hash))
+end
+
+function Evolution.removeAllWeapons()
+    RemoveAllPedWeapons(PlayerPedId(), true)
+end
+
 function Evolution.setCharacter(gender)
     if gender == "male" then
         modelHash = "mp_m_freemode_01"
