@@ -8,7 +8,7 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 
 | Referência  | Inteface       |  Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `setCharacter("male")` | `client/server` | Altera o modelo do personagem entre Homem e Mulher (male, female) |
+| `setCharacter("male")` | `client/server` | Altera o modelo do personagem entre Homem e Mulher (1, 2) |
 | `noClip()` | `client/server` | Entra ou sai do modo no-clip |
 | `setHealth(value)` | `client/server` | Setar vida para o personagem |
 | `setArmour(value)` | `client/server` | Setar colete para o personagem |
@@ -29,11 +29,11 @@ local Proxy = module("evolution", "lib/Proxy")
 Evolution = Proxy.getInterface("evolution")
 
 RegisterCommand("male", function(_, args, rawCommand)
-    Evolution.setCharacter("male")
+    Evolution.setCharacter(1)
 end)
 
 RegisterCommand("female", function(_, args, rawCommand)
-    Evolution.setCharacter("male")
+    Evolution.setCharacter(2)
 end)
 
 RegisterCommand("nc", function(_, args, rawCommand)

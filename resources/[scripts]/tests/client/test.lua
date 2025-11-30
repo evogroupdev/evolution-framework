@@ -3,11 +3,11 @@ local Proxy = module("evolution", "lib/Proxy")
 Evolution = Proxy.getInterface("evolution")
 
 RegisterCommand("male", function(_, args, rawCommand)
-    Evolution.setCharacter("male")
+    Evolution.setCharacter(1)
 end)
 
 RegisterCommand("female", function(_, args, rawCommand)
-    Evolution.setCharacter("male")
+    Evolution.setCharacter(2)
 end)
 
 RegisterCommand("nc", function(_, args, rawCommand)

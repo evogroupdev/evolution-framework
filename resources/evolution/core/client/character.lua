@@ -37,9 +37,9 @@ function Evolution.removeAllWeapons()
 end
 
 function Evolution.setCharacter(gender)
-    if gender == "male" then
+    if gender == 1 then
         modelHash = "mp_m_freemode_01"
-    elseif gender == "female" then
+    elseif gender == 2 then
         modelHash = "mp_f_freemode_01"
     else
         return
