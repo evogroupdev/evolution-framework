@@ -22,6 +22,7 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 | `removeAllWeapons()` | `client/server` | Remover todos armamentos do personagem |
 
 ## Exemplo de uso
+#### Client.lua
 
 ```lua
 local Tunnel = module("evolution", "lib/Tunnel")
