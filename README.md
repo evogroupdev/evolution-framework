@@ -14,6 +14,7 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 | `setArmour(value)` | `client/server` | Setar colete para o personagem |
 | `create2DText(text, x, y, scale, r, g, b, a)` | `client/server` | Criar um texto 2D |
 | `create3DText(text, coords, scale, r, g, b, a)` | `client/server` | Criar um texto 3D |
+| `removeText(id)` | `client/server` | Remover um texto 2D/3D especifico |
 
 ## Autores
 
