@@ -22,9 +22,3 @@ RegisterCommand("text", function(_, args, rawCommand)
     Evolution.removeText(text2D)
     Evolution.removeText(text3D)
 end)
-
-
-RegisterCommand("a", function(_, args, rawCommand)
-    local info = Evolution.teste()
-    print(info)
-end)
