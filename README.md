@@ -28,7 +28,11 @@ local Tunnel = module("evolution", "lib/Tunnel")
 local Proxy = module("evolution", "lib/Proxy")
 Evolution = Proxy.getInterface("evolution")
 
-RegisterCommand("teste", function(_, args, rawCommand)
+RegisterCommand("male", function(_, args, rawCommand)
+    Evolution.setCharacter("male")
+end)
+
+RegisterCommand("female", function(_, args, rawCommand)
     Evolution.setCharacter("male")
 end)
 
@@ -37,7 +41,7 @@ RegisterCommand("nc", function(_, args, rawCommand)
 end)
 
 RegisterCommand("text", function(_, args, rawCommand)
-    local text2D = Evolution.create2DText("Meu Texto", 0.5, 0.1, 0.4, 0, 255, 0, 255)
+    local text2D = Evolution.create2DText("Meu Texto 2D", 0.5, 0.1, 0.4, 0, 255, 0, 255)
     local text3D = Evolution.create3DText("Texto 3D", GetEntityCoords(PlayerPedId()), 0.4, 255, 0, 0, 255)
 
     print("ID 2D: " .. tostring(text2D))
