@@ -6,7 +6,7 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 
 ### Client-side
 
-| Referência  | Tipo       |  Descrição                           |
+| Referência  | Inteface       |  Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `setCharacter("male")` | `client/server` | Altera o modelo do personagem entre Homem e Mulher (male, female) |
 | `noClip()` | `client/server` | Entra ou sai do modo no-clip |
