@@ -16,7 +16,7 @@ Evolution é um framework moderno, leve e altamente performático para FiveM, cr
 | `create3DText(text, coords, scale, r, g, b, a)` | `client/server` | Criar um texto 3D |
 | `removeText(id)` | `client/server` | Remover um texto 2D/3D especifico |
 
-## Autores
+## Colaboradores
 
 - [@DeeX](https://www.github.com/dxofc)
 
